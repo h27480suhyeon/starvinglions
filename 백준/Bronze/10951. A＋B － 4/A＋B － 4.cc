@@ -6,8 +6,9 @@ int main()
 {
     int a,b;
     
-    while (!(cin>>a>>b).eof()) {
-        cout << a+b <<endl;
+    while (scanf("%d %d", &a, &b)!=EOF) {
+        printf("%d\n", a+b);
+        
     }
 
     return 0;
